@@ -1,0 +1,41 @@
+_id: req_3af29b509eb448579d85076f8be35f47
+type: Request
+parentId: wrk_5b8997ccc18f4336b92f8f1913fdfc8a
+modified: 1663857273424
+created: 1663856277976
+url: "{{ _['ad url'] }}/api/Main/ApiRequest?TimeZone=4&LanguageId=en"
+name: Report partners
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"Controller":"Report","Method":"GetReportByPartners","Token":"{{ _.token
+    }}","RequestObject":{"SkipCount":0,"TakeCount":100,"OrderBy":null,"FieldNameToOrderBy":"","ToDate":"2022-09-22T20:00:00.000Z","FromDate":"2022-09-21T20:00:00.000Z"}}'
+parameters:
+  - name: TimeZone
+    value: "4"
+    disabled: false
+    id: pair_5f2e9bc5e6ff4dc587e3526d4356a5b1
+  - name: LanguageId
+    value: en
+    disabled: false
+    id: pair_28cefc6438a442b287a4a287fb72f6c4
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_eb26bca99ee54f05bd00513df4ca5f5d
+  - name: Cookie
+    value: AWSALBTG=EWAEGPuXekk7ntHnusSdLEnUgAmo2m50IDrUI8Ij7Rre11gkgmC5CNOkbaKdGb5E8d5sqmZKxs0MzMga0oSshUjjI4kie6wEdCn9CoNvfKT6LRv7%2FoGK6qs1OJ0Qcy86q6y0O2f6lvtvU8ieIMMlYqAKvUsovf%2FZVSRoC%2Fih5eVM;
+      AWSALBTGCORS=EWAEGPuXekk7ntHnusSdLEnUgAmo2m50IDrUI8Ij7Rre11gkgmC5CNOkbaKdGb5E8d5sqmZKxs0MzMga0oSshUjjI4kie6wEdCn9CoNvfKT6LRv7%2FoGK6qs1OJ0Qcy86q6y0O2f6lvtvU8ieIMMlYqAKvUsovf%2FZVSRoC%2Fih5eVM;
+      AWSALB=5iwCpandeaBJgSL%2BFrTg3cSOM2xGxa9lzI2x6o3bvjTNCl2TNkeZqgzuTEI4QCKCA7J6BHxy3S%2BcLJGoceCIF6eHf8XzDkT5q7epxhEZY1uwyFlpSIn7DEbTiDID;
+      AWSALBCORS=5iwCpandeaBJgSL%2BFrTg3cSOM2xGxa9lzI2x6o3bvjTNCl2TNkeZqgzuTEI4QCKCA7J6BHxy3S%2BcLJGoceCIF6eHf8XzDkT5q7epxhEZY1uwyFlpSIn7DEbTiDID
+    id: pair_8176d2378d6d41f890c0f689ced05867
+authentication: {}
+metaSortKey: -1663856277976
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

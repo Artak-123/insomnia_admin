@@ -1,0 +1,41 @@
+_id: req_2999d0b6c2994c4c9116d49560549763
+type: Request
+parentId: wrk_5b8997ccc18f4336b92f8f1913fdfc8a
+modified: 1663857242703
+created: 1663856097439
+url: "{{ _['ad url'] }}/api/Main/ApiRequest?TimeZone=4&LanguageId=en"
+name: Get player
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"Controller":"Client","Method":"GetClients","Token":"{{ _.token
+    }}","RequestObject":{"SkipCount":0,"TakeCount":100,"OrderBy":null,"FieldNameToOrderBy":"","ToDate":"2022-09-22T20:00:00.000Z","FromDate":"2022-08-31T20:00:00.000Z","PartnerId":[]}}'
+parameters:
+  - name: TimeZone
+    value: "4"
+    disabled: false
+    id: pair_471aa849255d45cd89e5c36c89c35a7b
+  - name: LanguageId
+    value: en
+    disabled: false
+    id: pair_8f509fa9850642baa4597a0ef2485a0d
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_19805c70f8864ea390f196a1d8b48c3c
+  - name: Cookie
+    value: AWSALBTG=PTUfDbsvKSELXXZoDVmlt68r1WRnRXJpOCGS6qhDNDUucQ%2BT6kiEIVve%2FNK%2FshowEkl9caZsz2g0m1lTtDMKomrLzO5O6kpz3k4g4jB600ankTgBFzzvWAn%2F5z9j22vXbMv5LnCnY%2FLSAhFZeu1VkcCgN0ui3B%2B7ea%2FEm0s9SsEX;
+      AWSALBTGCORS=PTUfDbsvKSELXXZoDVmlt68r1WRnRXJpOCGS6qhDNDUucQ%2BT6kiEIVve%2FNK%2FshowEkl9caZsz2g0m1lTtDMKomrLzO5O6kpz3k4g4jB600ankTgBFzzvWAn%2F5z9j22vXbMv5LnCnY%2FLSAhFZeu1VkcCgN0ui3B%2B7ea%2FEm0s9SsEX;
+      AWSALB=LUBiW6tsuq%2FrSFmzdhenXmtTImfzu7D3R5Gvxsot%2Bkfy7oO7Oz0nuG1TbM8EKeWCsS8MImBVs2A%2FM1zwpCDTC06TeKXu4LrV3iZijOnNZULHhZawXpA0zDZYinDN;
+      AWSALBCORS=LUBiW6tsuq%2FrSFmzdhenXmtTImfzu7D3R5Gvxsot%2Bkfy7oO7Oz0nuG1TbM8EKeWCsS8MImBVs2A%2FM1zwpCDTC06TeKXu4LrV3iZijOnNZULHhZawXpA0zDZYinDN
+    id: pair_160ca08400844a5e9cf743b5f6016850
+authentication: {}
+metaSortKey: -1663856097439
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

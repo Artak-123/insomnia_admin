@@ -1,0 +1,17 @@
+_id: env_8c63d057730c4e25a1672f25c537b17b
+type: Environment
+parentId: env_fc1ab761baf856640cc6f0eb11f70c7b006c0c58
+modified: 1663857078723
+created: 1663856041760
+name: Admin
+data:
+  token: "{% response 'body', 'req_964c3a59db564bed88ef364861161129',
+    'b64::JC5Ub2tlbg==::46b', 'never', 60 %}"
+  ad url: https://adminapi.blue-version.com
+dataPropertyOrder:
+  "&":
+    - token
+    - ad url
+color: "#2c84af"
+isPrivate: false
+metaSortKey: 1663856041760

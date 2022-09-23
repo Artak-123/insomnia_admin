@@ -1,0 +1,41 @@
+_id: req_9f3c1a8ba609487ab85cdecd0a26805d
+type: Request
+parentId: wrk_5b8997ccc18f4336b92f8f1913fdfc8a
+modified: 1663857243212
+created: 1663856222921
+url: "{{ _['ad url'] }}/api/Main/ApiRequest"
+name: Get user
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"Controller":"User","Method":"GetUsers","Token":"{{ _.token
+    }}","RequestObject":{"SkipCount":0,"TakeCount":100,"OrderBy":null,"FieldNameToOrderBy":"","PartnerId":[]}}'
+parameters:
+  - name: TimeZone
+    value: "4"
+    disabled: false
+    id: pair_e2e97b1efae945be9f37de7b5f598f79
+  - name: LanguageId
+    value: en
+    disabled: false
+    id: pair_95b896bd02b443b3b22004a62f3d1595
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_bc4eaed0a8494f759084f4979d069e13
+  - name: Cookie
+    value: AWSALBTG=N7ESj0JlaCJ7r0MmfoK5mz%2F4oqD4UaI03PRi8Is7Mpz596SBz6tWkMQfxTOEAsySwmND%2FVduB19R41asKXxksaw%2B0XO5JVB7ehtp%2FNgRWUWMe%2B%2B0hsjfI9gA%2FZRica59dGE600nvv3GbS2IFKIlahZFRRcNgjjRRbdfVISgUx3ik;
+      AWSALBTGCORS=N7ESj0JlaCJ7r0MmfoK5mz%2F4oqD4UaI03PRi8Is7Mpz596SBz6tWkMQfxTOEAsySwmND%2FVduB19R41asKXxksaw%2B0XO5JVB7ehtp%2FNgRWUWMe%2B%2B0hsjfI9gA%2FZRica59dGE600nvv3GbS2IFKIlahZFRRcNgjjRRbdfVISgUx3ik;
+      AWSALB=OMnVL4FzkRACXl9BKIZvpf0T8Kaf59oWxYFcxLgEmD7idPMeWkTTQPLLor%2FSu5pvfXxmxbq0mlJ64JC95l5CW7kLEceI1dpCm5wZsa%2FOlZ3eAiTEvDGBP8ktGm8N;
+      AWSALBCORS=OMnVL4FzkRACXl9BKIZvpf0T8Kaf59oWxYFcxLgEmD7idPMeWkTTQPLLor%2FSu5pvfXxmxbq0mlJ64JC95l5CW7kLEceI1dpCm5wZsa%2FOlZ3eAiTEvDGBP8ktGm8N
+    id: pair_0f8d7baa7eb54b569245fa0957d8fd4c
+authentication: {}
+metaSortKey: -1663856222921
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
